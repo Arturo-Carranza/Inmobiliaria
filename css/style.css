@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #e6f2ff;
+}
+
+.header{
+    color: whitesmoke;
+    height: 100px;
+    display: flex;
+    background-color: #48e;
+    justify-content: space-around;
+    background: linear-gradient(#01183d,#48e, transparent );
+    padding: 30px;
+
+}
+
+.titulo{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+.lista{
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+        
+}
+
+.nav-item-list{
+   
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 5px;
+    width:80px;
+    text-decoration: none;
+}
+
+
+.nav-item-list:hover{
+    background-color: #a4bffc;
+}
+
+
+.link{
+    text-decoration: none;
+    color:white;
+    height: max-content;
+    
+}
+
+.active{
+   text-decoration: none;
+}
+
+.active-item{
+    background-color: #ccffcc;
+    width:80px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+
+
+/*ventas*/
+
+
+
+.subtitulo{
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+
+}
+.containerd{
+  
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    
+   
+
+}
+
+.item-d1{
+   
+   border: 2px solid black;
+    width: 290px;
+    padding-top: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 150px;
+    
+}
+
+.imgd{
+    border-radius: 5px;
+}
+.desc-d1{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    
+ }
+
+.precio-d1{
+
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.btn-d1{
+    margin-top: 10px;
+ }
+
+.item-d2{
+    
+    border: 2px solid black;
+     width: 290px;
+     padding-top: 5px;
+     text-align: center;
+     justify-content: center;
+     border-radius: 10px;
+ }
+
+
+ .desc-d2{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    
+ }
+ 
+ 
+ .precio-d2{
+     padding-top: 40px;
+     text-align: center;
+     justify-content: center;
+     font-weight: bold;
+ }
+ .btn-d2{
+    margin-top: 15px;
+ }
+
+ .item-d3{
+   
+    border: 2px solid black;
+     width: 290px;
+     padding-top: 5px;
+     text-align: center;
+     justify-content: center;
+     border-radius: 10px;
+ }
+ 
+ .desc-d3{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    
+ }
+ .precio-d3{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.btn-d3{
+    margin-top: 15px;
+ }
+.item-d4{
+    
+    border: 2px solid black;
+     width: 290px;
+     padding-top: 5px;
+     text-align: center;
+     justify-content: center;
+     border-radius: 10px;
+ }
+ .desc-d4{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+ }
+ .precio-d4{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+
+ }
+ .btn-d4{
+    margin-top: 15px;
+ }
+
+ /*titulo index.html*/
+ .titulosn{
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #004080;
+    font-weight: bold;
+    text-shadow: 2px 2px #b3d9ff;
+    padding: 20px 30px;
+ }
+
+ .contenedorsn{
+    padding-left: 30px;
+    width: 90vw;
+    background-color: #e6f3ff;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #b3d9ff 1%,transparent)
+ }
+
+ .contenedorsn p{
+    font-size: 1.090em;
+    text-align: justify;
+ }
+ .lista-pqe{
+    padding: 10px 30px
+ }
+  footer{
+    background-color: #93b5ec;
+    position: relative;
+    top: 230px;
+    margin: 5px 0 5px 5px;
+    height: 200px;
+    width: 90vw;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #0066cc,#48e, transparent )
+ }
+ footer p{
+    padding-top: 20px;
+ }
+
+ .contenedor-lista-datos{
+   
+    width: 300px;
+    position: relative;
+    top: 50px;
+    left: 60vw;
+ }
+.lista-datos{
+    list-style: none;
+    align-items: center;
+}
+
+.telefono{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    padding-bottom: 10px;
+}
+.mail{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    padding-bottom: 10px;
+}
+.direccion{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+   
+}
+/*Contacto*/
+
+.titulo-contacto{
+    margin: 20px 0 0 30px;
+  
+
+    
+}
+.p-contacto{
+    margin: 20px 0 0 30px;
+}
+/*Formulario de contacto*/
+
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 20px 0 0 50px;
+    width: 400px;
+    height: 410px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+   
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  
+    
+    border: 2px solid #9999;
+  }
+  
+  input:focus,
+  textarea:focus {
+   
+    border-color: #000000;
+  }
+  
+  textarea {
+    
+    vertical-align: top;
+  
+   
+    height: 5em;
+  }
+  
+  .button {
+   
+    padding-left: 90px; 
+    height: 10px;
+  }
+  
+  button {
+    
+    margin-left: 0.5em;
+    height: 35px;
+    width: 100px;
+  }
+
+
+  /*Alquiler*/
+
+.titulo-alquiler{
+    margin-top: 10px;
+}
+
+  .alquiler-1{
+   
+    border: 2px solid black;
+     width: 290px;
+     padding-top: 5px;
+     text-align: center;
+     justify-content: center;
+     border-radius: 10px;
+     margin-left: 150px;
+     margin-top: 30px;
+     
+ }
+ 
+ .imgd{
+     border-radius: 5px;
+ }
+ .desc-alquiler-1{
+     text-align: center;
+     justify-content: center;
+     padding-top: 10px; 
+     margin-top: 10px;
+     
+  }
+ 
+ .precio-alquiler-1{
+ 
+     
+     text-align: center;
+     justify-content: center;
+     font-weight: bold;
+     margin-top: 60px;
+ }
+ .btn-alquiler-1{
+     margin-top: 10px;
+  }
+ 
+ .alquiler-2{
+     
+     border: 2px solid black;
+      width: 290px;
+      padding-top: 5px;
+      margin-top: 30px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+  }
+ 
+ 
+  .desc-alquiler-2{
+    margin-top: 10px;
+     text-align: center;
+     justify-content: center;
+     padding: 10px;
+     
+  }
+  
+  
+  .precio-alquiler-2{
+      padding-top: 40px;
+      text-align: center;
+      justify-content: center;
+      font-weight: bold;
+  }
+  .btn-alquiler-2{
+     margin-top: 15px;
+  }
+ 
+  .alquiler-3{
+    
+     border: 2px solid black;
+      width: 290px;
+      padding-top: 5px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 30px;
+  }
+  
+  .desc-alquiler-3{
+     text-align: center;
+     justify-content: center;
+     padding: 10px;
+     margin-top: 10px;
+     
+  }
+  .precio-alquiler-3{
+     padding-top: 20px;
+     text-align: center;
+     justify-content: center;
+     font-weight: bold;
+     margin-top: 20px;
+ }
+ .btn-alquiler-3{
+     margin-top: 15px;
+  }
+ .alquiler-4{
+     
+     border: 2px solid black;
+      width: 290px;
+      padding-top: 5px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 30px;
+  }
+  .desc-alquiler-4{
+     text-align: center;
+     justify-content: center;
+     padding: 10px;
+     margin-top: 10px;
+ 
+  }
+  .precio-alquiler-4{
+     padding-top: 20px;
+     text-align: center;
+     justify-content: center;
+     font-weight: bold;
+     margin-top: 40px;
+ 
+  }
+  .btn-alquiler-4{
+     margin-top: 15px;
+  }
